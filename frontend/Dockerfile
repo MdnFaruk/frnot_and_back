@@ -1,4 +1,3 @@
-#docker build -t front . && docker run -p 5000:5000 frnot
 FROM node:latest
 WORKDIR /app
 EXPOSE 5000
